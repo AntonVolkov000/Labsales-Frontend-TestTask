@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Labsales-Frontend-TestTask</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/font/font.css" type="text/css"/>
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
@@ -176,37 +177,148 @@
     <section class="infrastructure">
         <div class="container">
             <div class="section__title">Наша инфраструктура</div>
+            <div class="map">Карта</div>
         </div>
     </section>
-    <section class="description">
+    <section class="description-resident-complex">
         <div class="container">
             <div class="section__title">Описание Жилого Комплекса</div>
-            <div class="map">Карта</div>
+            <div class="subtitle">
+                Нажимайте
+                <span class="subtitle__arrows">
+                    <img src="./images/left-arrow.svg" alt="left-arrow">
+                    <img src="./images/right-arrow.svg" alt="right-arrow">
+                </span>
+                чтобы подробно ознакомится с проектом
+            </div>
+            <div class="cards">
+                <div class="cards-container">
+                    <div class="card">
+                        <div class="card__panel">
+                            <div class="card__text">Парковка</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__panel">
+                            <div class="card__text">Архитектура</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__panel">
+                            <div class="card__text">Охрана</div>
+                        </div>
+                    </div>
+                    <div class="card active">
+                        <div class="card__panel">
+                            <div class="card__text">Территория</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="description-slider">
+                <div class="description-slider__wrapper">
+                    <div class="description-slider__slide active">
+                        <div class="information-block">
+                            <div class="information-block__title">Территория</div>
+                            <p class="information-block__text">Жилой комплекс "Яблоновский" расположен на ул. Кобцевой Н.С. в пгт. Яблоновский. За пять минут пешком можно дойти до муниципальной поликлиники, школы и детского садика.
+
+                                Этот жилой комплекс располагается в непосредственной близости от улицы Гагарина, где проходит абсолютное большинство маршрутов общественного транспорта, соответственно легко добраться во все части поселка и города Краснодар. Тут же располагается магазин «Магнит», «Магнит Косметик», МФЦ, овощной рынок, мебельные магазины, аптеки и другие предприятия сферы услуг.</p>
+                        </div>
+                        <img class="slide-image" src="images/territory-1.jpg" alt="territory-1">
+                    </div>
+                    <div class="description-slider__noactive-slides">
+                        <div class="description-slider__slide">
+                            <div class="information-block">
+                                <div class="information-block__title">Территория</div>
+                                <p class="information-block__text">Жилой комплекс "Яблоновский" расположен на ул. Кобцевой Н.С. в пгт. Яблоновский. За пять минут пешком можно дойти до муниципальной поликлиники, школы и детского садика.
+
+                                    Этот жилой комплекс располагается в непосредственной близости от улицы Гагарина, где проходит абсолютное большинство маршрутов общественного транспорта, соответственно легко добраться во все части поселка и города Краснодар. Тут же располагается магазин «Магнит», «Магнит Косметик», МФЦ, овощной рынок, мебельные магазины, аптеки и другие предприятия сферы услуг.</p>
+                            </div>
+                            <img class="slide-image" src="images/territory-2.jpg" alt="territory-2">
+                        </div>
+                        <div class="description-slider__slide">
+                            <div class="information-block">
+                                <div class="information-block__title">Территория</div>
+                                <p class="information-block__text">Жилой комплекс "Яблоновский" расположен на ул. Кобцевой Н.С. в пгт. Яблоновский. За пять минут пешком можно дойти до муниципальной поликлиники, школы и детского садика.
+
+                                    Этот жилой комплекс располагается в непосредственной близости от улицы Гагарина, где проходит абсолютное большинство маршрутов общественного транспорта, соответственно легко добраться во все части поселка и города Краснодар. Тут же располагается магазин «Магнит», «Магнит Косметик», МФЦ, овощной рынок, мебельные магазины, аптеки и другие предприятия сферы услуг.</p>
+                            </div>
+                            <img class="slide-image" src="images/territory-3.jpg" alt="territory-3">
+                        </div>
+                        <div class="description-slider__slide">
+                            <div class="information-block">
+                                <div class="information-block__title">Территория</div>
+                                <p class="information-block__text">Жилой комплекс "Яблоновский" расположен на ул. Кобцевой Н.С. в пгт. Яблоновский. За пять минут пешком можно дойти до муниципальной поликлиники, школы и детского садика.
+
+                                    Этот жилой комплекс располагается в непосредственной близости от улицы Гагарина, где проходит абсолютное большинство маршрутов общественного транспорта, соответственно легко добраться во все части поселка и города Краснодар. Тут же располагается магазин «Магнит», «Магнит Косметик», МФЦ, овощной рынок, мебельные магазины, аптеки и другие предприятия сферы услуг.</p>
+                            </div>
+                            <img class="slide-image" src="images/territory-4.jpg" alt="territory-4">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </section>
     <section class="request">
         <div class="container">
             <div class="section__title">Узнайте о выгодных предложениях и получите консультацию</div>
-            <div>Сейчас мы работаем</div>
-            <div>По любым возникающим Вами вопросов звоните нам напрямую</div>
-            <div>+7 (918) 377-48-10</div>
-            <div>Или заполните форму</div>
-            <form action="">
-                <label>
-                    <input type="text">
-                </label>
-                <label>
-                    <input type="tel">
-                </label>
-                <label>
-                    <input type="email">
-                </label>
-                <button></button>
-                <label>
-                    <input type="checkbox">
-                </label>
-            </form>
+            <div class="request-block">
+                <div class="request-block_left">
+                    <div class="text">По любым возникающим Вами вопросов звоните нам напрямую</div>
+                    <div class="phone-block">
+                        <div class="phone-block__panel">
+                            <img src="./images/phone-call.svg" alt="phone">
+                        </div>
+                        <div class="phone-block__number">+7 (918) 377-48-10</div>
+                    </div>
+                </div>
+                <div class="request-block_right">
+                    <div class="message-about-filling">Или заполните форму</div>
+                    <div class="request-form-block">
+                        <div class="work-status">
+                            <div class="work-status__point"></div>
+                            <div class="work-status__text">Сейчас мы работаем</div>
+                        </div>
+                        <form class="request-form" action="">
+                            <div class="two-fields">
+                                <div class="card-panel">
+                                    <label>
+                                        <input type="text" placeholder="Ваше имя">
+                                    </label>
+                                </div>
+                                <div class="card-panel">
+                                    <label>
+                                        <input type="tel" placeholder="Ваш номер телефона">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="two-fields">
+                                <div class="card-panel">
+                                    <label>
+                                        <input type="email" placeholder="Ваш email">
+                                    </label>
+                                </div>
+                                <div class="form-button_container">
+                                    <button class="form-button">Отправить заявку</button>
+                                </div>
+                            </div>
+                            <div class="checkbox-block">
+                                <label for="request-form-checkbox">
+                                    <input type="checkbox" id="request-form-checkbox" checked="checked">
+                                    <img src="./images/draw-check-mark.svg" alt="draw-check-mark">
+                                    <span class="checkbox-text">
+                                        Я принимаю условия <span class="checkbox-text_blue">обработки персональных данных</span>
+                                    </span>
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
